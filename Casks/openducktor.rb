@@ -1,9 +1,9 @@
 cask "openducktor" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.2.1"
-  sha256 arm:   "50435c54cbdb78fcc7ab3d13af8587b1a6ad7a9e2243f25d10159a7d3f408ebc",
-         intel: "5198ec4464d166a21db54bfb8004f3335a12916093b2500e1b016aa7787977ec"
+  version "1.2.2"
+  sha256 arm:   "e062a25e90d3f653a66394acc8b511c8ad4e7acbb2697df76a4da9f7c0a5261b",
+         intel: "1b553158df6d7e963220edb29e7581c069e27e8bbd9a1a77b14d781d3806e9ac"
 
   url "https://github.com/Maxsky5/openducktor/releases/download/v#{version}/OpenDucktor-#{version}-mac-#{arch}.dmg"
   name "OpenDucktor"
